@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local working notes and verification scripts (not part of the app)
+DECISIONS.md
+HANDOFF.md
+PARITY.md
+REVIEW_NOTES.md
+tools/hyper_parity.py
+tools/compare_parity.py
+tools/hyper_values.json
+
+# Unused map resolution (the app reads world_110m.json)
+static/topojson/world_50m.json
+
+# Editor / tool settings
+.claude/
+.vscode/
+.idea/

@@ -1,0 +1,18 @@
+[theme]
+base = "light"
+primaryColor = "#2a52be"
+backgroundColor = "#f5f6f8"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#333333"
+font = "sans serif"
+
+[server]
+headless = false   # opens your browser on `streamlit run`
+runOnSave = false
+enableStaticServing = true   # serves ./static (offline map outlines)
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
