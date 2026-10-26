@@ -30,12 +30,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-**Docker:**
-
-```bash
-docker build -t aerolink-dashboard .
-docker run -d -p 8501:8501 aerolink-dashboard
-```
+The dashboard opens at http://localhost:8501. Stop it with Ctrl+C in the terminal.
 
 ## Update the data
 

@@ -8,8 +8,8 @@ font = "sans serif"
 
 [server]
 headless = false   # opens your browser on `streamlit run`
+address = "localhost"   # only this computer can open the dashboard
 runOnSave = false
-enableStaticServing = true   # serves ./static (offline map outlines)
 
 [browser]
 gatherUsageStats = false
